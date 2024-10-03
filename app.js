@@ -240,3 +240,41 @@
 //// and(true, true) ➞ true
 // //and(false, true) ➞ false
 // //and(false, false) ➞ false
+
+// function and(a, b) {
+//   return a && b;
+// }
+// const a = prompt("matiqiy operatorni kiriting true||false");
+// const b = prompt("matiqiy operatorni kiriting true||false");
+// console.log(and(a, b));
+
+/* 23-masala */
+//// Funksiya 2ta son qiymat qabul qiladi. Agar 1-son 2-songa teng bo’lsa rost, aks holda yolg’on qiymat qaytsin. Bunda ikkala qiymatning ma’lumot turi bir xil bo’lsin.
+
+// function tengMi(x, y) {
+//   return x === y;
+// }
+// const x = prompt("sonni kiriting");
+// const y = prompt("sonni kiriting");
+// console.log(tengMi(Number(x), Number(y)));
+
+/* 24-masala */
+// //.Futbolda ochkoni hisoblaydigan funksiya yasang. Bunda funksiya yutishlar soni, duranglar soni va mag’lubiyatlar sonini qabul qiladi. 1ta yutish = 3 ochko, 1ta durang = 1 ochko, 1ta mag’lubiyat = 0 ochko hisoblanadi.
+
+// function futbolOchko(yutishlar, duranglar, maglubiyatlar) {
+//   return yutishlar * 3 + duranglar * 1 + maglubiyatlar * 0;
+// }
+// const yutishlar = prompt("yutishlar soni ?");
+// const duranglar = prompt("duranglar soni ?");
+// const maglubiyatlar = prompt("maglubiyatlar soni ?");
+// console.log(futbolOchko(yutishlar, duranglar, maglubiyatlar));
+
+/* 25-masala */
+//// 25.Funskiya soatlar va minutlarni argument sifatida qabul qiladi. Ushbu funkisya soatlar va minutlarni sekundga o’girib ularning yig’indisini qaytarsin.
+
+// function sekundlar(soat, minut) {
+//   return soat * 3600 + minut * 60;
+// }
+// const soat = prompt("soatni kiriting");
+// const minut = prompt("minutni kiriting");
+// console.log(sekundlar(soat, minut));
