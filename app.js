@@ -234,15 +234,19 @@
 // console.log(oyoqlar(Number(tovuq), Number(qoy), Number(sigir)));
 
 /* 22-masala */
-//// 22.Javascriptda “&&” matiqiy operatori mavjud. Ushbu operator ikkita mantiqiy ifoda qabul qiladi. Quyidagi namunaga muvofiq keladigan funskiya yasang. Ushbu operatordan foydalangan holda!
-//// Namuna:
-//// and(true, false) ➞ false
-//// and(true, true) ➞ true
-// //and(false, true) ➞ false
-// //and(false, false) ➞ false
+// 22.Javascriptda “&&” matiqiy operatori mavjud. Ushbu operator ikkita mantiqiy ifoda qabul qiladi. Quyidagi namunaga muvofiq keladigan funskiya yasang. Ushbu operatordan foydalangan holda!
+// Namuna:
+// and(true, false) ➞ false
+// and(true, true) ➞ true
+//and(false, true) ➞ false
+//and(false, false) ➞ false
 
 // function and(a, b) {
-//   return a && b;
+//   if (a == "true" && b == "true") {
+//     return true;
+//   } else {
+//     return false;
+//   }
 // }
 // const a = prompt("matiqiy operatorni kiriting true||false");
 // const b = prompt("matiqiy operatorni kiriting true||false");
